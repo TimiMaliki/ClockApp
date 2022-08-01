@@ -28,3 +28,25 @@ str += newStr[i] ;
     lastLetterOfFirstName = firstName[firstName.length -1];
      console.log([lastLetterOfFirstName])
 
+
+   // Assignment 2 Differences between var, let, and const
+   
+
+  // the keyword 'var'
+  //  The scope of a var variable is functional scope.
+  //  It can be updated and re-declared into the scope.
+   //   It can be declared without initialization.
+   //   It can be accessed without initialization as its default value is “undefined”.
+
+
+   // the keyword 'let'
+    //  	The scope of a let variable is block scope.
+     //	It can be updated but cannot be re-declared into the scope.
+     // It can be declared without initialization.
+     //	It cannot be accessed without initialization, as it returns an error.
+
+     // the keyword 'const'
+     //	The scope of a const variable is block scope.
+  //	It cannot be updated or re-declared into the scope.
+ 	//	It cannot be declared without initialization.
+  //	It cannot be accessed without initialization, as it cannot be declared without initialization.
