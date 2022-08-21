@@ -50,3 +50,13 @@ str += newStr[i] ;
   //	It cannot be updated or re-declared into the scope.
  	//	It cannot be declared without initialization.
   //	It cannot be accessed without initialization, as it cannot be declared without initialization.
+
+   function med(cap){
+    let oneGram = new Number(1000);
+    fourGram = oneGram * 4;
+ totalNumberOfCapsule = fourGram / cap;
+   }
+   med(500)
+    console.log(totalNumberOfCapsule);
+ 
+  
