@@ -17,6 +17,7 @@
 
 formular = volumeInMilitres / periodGiven
 
+// the formulae of drip is volume pf the medication / time taken
 
 }
 
