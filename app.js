@@ -7,6 +7,7 @@
      *
      *  @param {number} volumeInMilitres
      *  @param {number} periodGiven
+     *  @param {number} rate
      * 
      */
 
