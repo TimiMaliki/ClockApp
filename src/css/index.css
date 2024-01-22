@@ -104,7 +104,9 @@ a {
 
 /* @media screen and (max-width: 376px) {
     .digital-clock {
-        border: 2px solid green;
+        border: 2px solid red;
+        position: absolute;
+        left: 0%;
     }
 } */
 
@@ -281,7 +283,7 @@ a {
 }
 
 .time-wrapper {
-    width: 400px;
+    width: 350px;
     height: 400px;
     display: grid;
     position: absolute;
@@ -290,6 +292,7 @@ a {
     transform: translate(-50%, -50%);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     background: #FAF9F6;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 
 .inner__Time__wrapper {
@@ -326,7 +329,7 @@ a {
     gap: 1rem;
     position: absolute;
     top: 70%;
-    left: 5%;
+    left: 4%;
 }
 
 .btn-1,
