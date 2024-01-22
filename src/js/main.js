@@ -40,8 +40,17 @@ setInterval(() => {
     const period = document.querySelector(".period")
     const formatSwitchBtn = document.querySelector(".format-switch-btn")
 
+    
+    if (hours >= 12) {
+        period.innerText = "pm"
+    } 
+    else {
+        period.innerText = "am"
+    }
+
     // to change format 24hours or 12hours
     let formatValue = formatSwitchBtn.getAttribute("data-format");
+    
 
     if (formatValue === "12") {
         hours = hours > 12 ? hours % 12 : hours;
@@ -56,17 +65,16 @@ setInterval(() => {
 
         if (formatValue === "12") {
             formatSwitchBtn.setAttribute("data-format", "24");
+            period.innerText = "pm"
         }
+      
         else {
             formatSwitchBtn.setAttribute("data-format", "12");
         }
+
+
     })
 
-    if (hours >= 12) {
-        period.innerText = "pm"
-    } else {
-        period.innerText = "am"
-    }
 
     if (minutes < 10) {
         minutes = "0" + minutes
@@ -83,7 +91,7 @@ setInterval(() => {
 }, 1000)
 
 
-/* STOP CLOCK*/
+/********************* STOP CLOCK  *************************/
 
 const btnOne = document.querySelector(".btn-1")
 const btnTwo = document.querySelector(".btn-2")
