@@ -65,7 +65,6 @@ setInterval(() => {
 
         if (formatValue === "12") {
             formatSwitchBtn.setAttribute("data-format", "24");
-            period.innerText = "pm"
         }
       
         else {
